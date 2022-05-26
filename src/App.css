@@ -14,7 +14,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background: rgba(0,0,0, 0.45);
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -22,6 +22,8 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+  margin: 2vh;
+  
 }
 
 .App-link {
@@ -41,3 +43,8 @@ h1{
   font-family: 'Inter', sans-serif;
   color: #E5E5E5;
 }
+
+body {
+  background-image: url("https://www.snu.ac.kr/webdata/site/kor/config/840z2e9zd32zfccz0b8zc25z9c2z58cz84dz2a8z63.png");
+}
+  

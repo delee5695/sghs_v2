@@ -2,6 +2,7 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 import logoimg from './logo2.png'
+
 /*import { slide as Menu } from 'react-burger-menu'; */
 
 function App() {
