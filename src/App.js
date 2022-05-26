@@ -1,7 +1,8 @@
+import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 import logoimg from './logo2.png'
-import { slide as Menu } from 'react-burger-menu'; 
+/*import { slide as Menu } from 'react-burger-menu'; */
 
 function App() {
   return (
@@ -11,7 +12,7 @@ function App() {
         <img src={logoimg} className="logoimg" height="90px"/>
         <h1>Our Hearts in Korea,<br/> Our Eyes to the World</h1>
       </div>
-      <Menu>
+      
       <a className="menu-item" href="/">
         Home
       </a>
@@ -35,7 +36,7 @@ function App() {
       <a className="menu-item" href="/node">
         Node
       </a>
-    </Menu>
+    
       
     </div>
   );
